@@ -8,9 +8,16 @@
     <body>
         <!-- Обработчик форм -->
         <?php include "select.php";?>
-        
 
+        <form action="/task-13/">
+            <p>Choose delivery method:</p>
+            <select name="delivery">
+                <option value="1">Self-delivery</option>
+                <option value="2">Delivery to the pickup point</option>
+                <option value="3">Address delivery</option>
+            </select>
+            <input type="submit">
+        </form>
 
-                
     </body>
 </html>
