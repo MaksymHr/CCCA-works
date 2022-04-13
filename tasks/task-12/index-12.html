@@ -12,12 +12,19 @@
                 margin-bottom: 20px;
             }
         </style>
-        
     </head>
+
     <body>
         <!-- Обработчик формы -->
         <?php include 'comment.php';?>
-                
+
+        <form method="get" action="/task-12/">
+            <input type="text" name="username" placeholder="Input ur name">
+            <input type="text" name="family_name" placeholder="Input ur surname">
+            <textarea name="comment" placeholder="Comment"></textarea>
+            <input type="submit">
+        </form>
+
     </body>
 </html>
 
