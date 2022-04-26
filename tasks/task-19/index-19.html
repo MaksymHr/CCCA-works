@@ -6,8 +6,48 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+        <?php include 'reg.php';?>
 
-        
-                
+        <form action="/task-19/" method="post">
+            <label>
+                <input type="text" name="username" placeholder="Username" required>
+                <br><br>
+
+                <input type="text" name="login" placeholder="Login" required>
+                <br><br>
+
+                <input type="password" name="password0" placeholder="Password" required>
+                <input type="password" name="password1" placeholder="Repeat password" required>
+                <br><br>
+
+                Choose the profile image:<br>
+                <input type="file" name="avatar">
+                <br><br>
+
+                Type of account:<br>
+                <select name="type" required>
+                    <option value="1">Non-Premium</option>
+                    <option value="2">Premium</option>
+                </select>
+                <br><br>
+
+                Sex:<br>
+                <input type="radio" name="sex" value="0">Female
+                <input type="radio" name="sex" value="1">Male
+                <br><br>
+
+                Spam?:<br>
+                <input type="checkbox" name="news[]" value="HTML5">HTML5
+                <input type="checkbox" name="news[]" value="CSS">CSS<br>
+                <input type="checkbox" name="news[]" value="CEO">CEO
+                <input type="checkbox" name="news[]" value="PHP7">PHP7
+                <br><br>
+
+                <textarea cols="50" rows="10" name="about" placeholder="Tell me about you, sir"></textarea>
+                <br><br>
+
+                <input type="submit" value="Register">
+            </label>
+        </form>
     </body>
 </html>
