@@ -1,0 +1,19 @@
+p {
+    color: #ff0000;
+}
+
+h1 {
+    color: #008000;
+}
+
+li {
+    color: #800080;
+}
+
+p, li {
+    font-family: Verdana, serif;
+}
+
+* {
+    font-size: 20px;
+}
