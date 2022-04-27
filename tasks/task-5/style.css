@@ -1,5 +1,12 @@
+/** {
+    font-family: Verdana, serif;
+}*/
 
+#first_p {
+    font-size: 24px;
+    color: #9acd32;
+}
 
-* {
-    font-family: Verdana;
+.redtext {
+    color: #ff0000;
 }
