@@ -13,13 +13,13 @@ body {
 /** Header styles **/
 
 .header {
-  background-image: url(/tasks/task-6/photo.jpg);
+  background-image: url(/tasks/task-13/photo.jpg);
   height: 400px;
   background-position: center center;
 }
 
 h1 {
-  color: #41292C;
+  color: rgba(2, 93, 140, 0.6);
   font-family: 'Covered By Your Grace', sans-serif;
   font-size: 100px;
   line-height: 76px;
@@ -32,7 +32,7 @@ h1 {
 /** List style **/
 
 h2 {
-  color: #E4BB97;
+  color: hsla(239, 45%, 22%, 0.4);
   font-family: 'Raleway', sans-serif;
   font-size: 28px;
   font-weight: 500;
