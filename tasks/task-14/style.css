@@ -15,6 +15,7 @@ h1 {
   padding-top: 100px;
   text-align: left;
   width: 60%;
+  font-family: Georgia, serif;
 }
 
 h2 {
@@ -22,6 +23,7 @@ h2 {
   color: rgba(255, 255, 255, 0.5);
   font-weight: 100;
   font-size: 22px;
+  font-family: Georgia, serif;
   line-height: 24px;
   padding-bottom: 30px;
   text-align: left;
@@ -33,7 +35,7 @@ p {
   line-height: 1em;
   text-align: left;
   width: 100%;
-
+  font-family: Roboto-Bold, serif;
 }
 
 .byline {
@@ -79,4 +81,9 @@ p {
   box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
   float: left;
   width: 50px;
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(Roboto-Bold.ttf);
 }
