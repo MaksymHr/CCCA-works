@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Montserrat:wght@100;200;300&display=swap');
+
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    table-layout:fixed; width:700px;
+}
+
+td, th {
+    /*text-align: center;*/
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+td {
+    width: 20%;
+}
+
+th {
+    text-align: center;
+}
+
+a {
+    text-decoration: underline;
+    color: red;
+}
+
+a:hover {
+    background-color: #bfffe0;
+}
+
+p {
+    text-indent: 40px;
+    text-align: justify;
+}
