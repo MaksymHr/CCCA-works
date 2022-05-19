@@ -1,1 +1,23 @@
+body {
+    font-size: 0;
+}
 
+.elem {
+    width: 200px;
+    height: 100px;
+    /*display: inline-block;*/
+    display: None;
+    font-size: 20px;
+}
+
+.div1 {
+    background-color: red;
+}
+
+.div2 {
+    background-color: navy;
+}
+
+.div3 {
+    background-color: green;
+}
