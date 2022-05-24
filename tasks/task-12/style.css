@@ -1,42 +1,22 @@
+.container {
+    overflow: hidden;
 
+    background-color: grey;
 
+    width: 1000px;
+    margin: 30px auto;
 
+    font-size: 0;
+}
 
+.card {
+    /*display: inline-block;*/
+    /*vertical-align: top;*/
+    float: left;
 
+    width: 220px;
+    height: 280px;
+    margin: 15px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    background-color: green;
+}
