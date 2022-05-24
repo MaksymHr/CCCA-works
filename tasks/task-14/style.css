@@ -1,44 +1,9 @@
+body {
+    background-image: url("bg.png");
 
-    
-    
+    /*background-repeat: no-repeat;*/
+    /*background-repeat: repeat-x;*/
+    /*background-repeat: repeat-y;*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    background-color: #4caf50;
+}
