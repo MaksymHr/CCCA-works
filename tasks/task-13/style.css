@@ -1,42 +1,24 @@
+.box0, .box1 {
+    display: inline-block;
 
+    margin: 2px;
+    height: 120px;
+    line-height: 120px;
 
+    border-radius: 20px;
 
+    text-align: center;
+    vertical-align: center;
+    font-size: 40px;
 
+    background-color: red;
+    color: white;
+}
 
+.box0 {
+    width: 120px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.box1 {
+    width: 240px;
+}
