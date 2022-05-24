@@ -1,18 +1,20 @@
+.avatar_block {
+    width: 320px;
+    background-color: #dedede;
+    height: 320px;
+    line-height: 430px; /*why it don't center with 320px?*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.avatar {
+    display: inline-block;
+    background-image: url("person.png");
+    width: 120px;
+    height: 120px;
+    vertical-align: center;
+    border-radius: 50%;
+    border: 3px solid yellow;
+}
