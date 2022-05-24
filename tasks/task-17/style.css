@@ -2,52 +2,8 @@ ul {
     width: 600px;
 }
 
-
-
-
-
-
-
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+li {
+    /*list-style-type: circle;*/
+    list-style-image: url("1.jpg");
+    list-style-position: inside;
+}
