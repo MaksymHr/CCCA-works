@@ -1,7 +1,7 @@
 #container {
     width: 1000px;
     margin: 0 auto;
-    font-size: 0px;
+    font-size: 0;
 }
 
 header {
@@ -9,30 +9,34 @@ header {
     background-color: purple;
 }
 
-
 footer {
     height: 200px;
     background-color: black;
 }
 
+.table {
+    display: table;
+    width: 100%;
+}
 
+.table_row {
+    display: table-row;
+}
 
+.table_cell {
+    display: table-cell;
+}
 
+aside {
+    background-color: red;
 
+    width: 20px;
+    height: 200px;
+}
 
+article {
+    background-color: green;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    width: 60%;
+    height: 1000px;
+}
